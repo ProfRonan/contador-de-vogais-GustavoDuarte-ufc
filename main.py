@@ -17,7 +17,7 @@ def count_vowels(string:str) -> int:
     e = b.count('I')
     f = b.count('O')
     g = b.count('U')
-    print(c+d+e+f+g)
+    return(c+d+e+f+g)
 
     
 
