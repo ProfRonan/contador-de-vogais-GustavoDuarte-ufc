@@ -10,3 +10,14 @@ def count_vowels(string:str) -> int:
     Returns:
         int: The number of vowels in the string.
     """
+    a = string
+    b = a.upper()
+    c = b.count('A')
+    d = b.count('E')
+    e = b.count('I')
+    f = b.count('O')
+    g = b.count('U')
+    return(c+d+e+f+g)
+
+    
+
